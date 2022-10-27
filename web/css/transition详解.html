@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>transition详解</title>
+    <style type="text/css">
+        /*默认状态*/
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 100px auto;
+            transition-property: all;
+            transition-duration: 0.5s;
+            transition-timing-function: linear;
+            transition-delay: 0.5s;
+        }
+        /*结束状态*/
+        div:hover{
+            width: 400px;
+            height: 400px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<div>
+
+</div>
+</body>
+</html>
