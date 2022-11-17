@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for循环中的变量声明问题.html</title>
+    <script>
+        for(var i=0;i<5;++i){
+           console.log(i) ; //输出 0、1、2、3、4  
+        }   
+        console.log(i)    //输出5 
+
+        for(let n=0;n<5;++n){
+           console.log(n) ;//输出 0、1、2、3、4  
+        }   
+        //console.log(n)     n为块级作用域    
+        for (var m = 0; m < 5; ++m) { 
+            setTimeout(() => console.log(m), 0) // 你可能以为会输出 0、1、2、3、4  实际上会输出 5、5、5、5、5
+        } 
+        for (let p = 0; p < 5; ++p) { 
+            setTimeout(() => console.log(p), 0) // 输出 0、1、2、3、4  
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

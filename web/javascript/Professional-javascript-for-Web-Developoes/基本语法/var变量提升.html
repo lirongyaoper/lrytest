@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>var变量提升.html</title>
+    <script>
+        //var 声明提升  这是因为使用这个关键字声明的变量会自动提升到函数作用域顶部：
+        function foo() { 
+            console.log(age); 
+            var age = 26; 
+            console.log(age);
+        } 
+        foo();        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
