@@ -1,1 +1,0 @@
-loadScript("client.js");

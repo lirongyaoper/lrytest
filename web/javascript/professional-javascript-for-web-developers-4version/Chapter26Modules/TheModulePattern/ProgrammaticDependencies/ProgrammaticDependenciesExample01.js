@@ -1,3 +1,0 @@
-if (loadCondition) {
-  require('./moduleA');
-}

@@ -1,1 +1,0 @@
-div.outerText = "Hello world!";

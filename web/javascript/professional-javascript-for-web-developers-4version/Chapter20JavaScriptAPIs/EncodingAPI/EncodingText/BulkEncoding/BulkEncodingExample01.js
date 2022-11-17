@@ -1,1 +1,0 @@
-const textEncoder = new TextEncoder();

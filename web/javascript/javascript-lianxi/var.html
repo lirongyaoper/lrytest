@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //1.使用 var在一个函数内部定义一个变量，就意味着该变量将在函数退出时被销毁：
+        function test(){
+            var message="h1";
+            console.log(message);
+
+        }
+        test()
+        console.log(message);//报错
+
+        //2. var 声明提升  这是因为使用这个关键字声明的变量会自动提升到函数作用域顶部：
+        function foo() { 
+            console.log(age); 
+            var age = 26; 
+        } 
+        foo();
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,1 +1,0 @@
-person["first name"] = "Nicholas";

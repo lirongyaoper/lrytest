@@ -1,1 +1,0 @@
-<ul id="myList"></ul>

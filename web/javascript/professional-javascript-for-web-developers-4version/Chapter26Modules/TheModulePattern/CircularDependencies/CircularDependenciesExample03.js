@@ -1,4 +1,0 @@
-moduleD
-moduleA
-moduleB
-moduleC

@@ -1,3 +1,0 @@
-do {
-  statement
-} while (expression);

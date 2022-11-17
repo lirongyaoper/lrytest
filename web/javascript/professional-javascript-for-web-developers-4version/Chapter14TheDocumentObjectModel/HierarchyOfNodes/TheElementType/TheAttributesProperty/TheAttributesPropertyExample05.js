@@ -1,1 +1,0 @@
-element.attributes.setNamedItem(newAttr);

@@ -1,1 +1,0 @@
-result = variable instanceof constructor

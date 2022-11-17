@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        if(true){
+            var name = "matt";
+            console.log(name)
+        }
+        console.log(name)
+
+        //age 变量之所以不能在 if 块外部被引用，是因为它的作用域仅限于该块内部。块作用域是函数作用域的子集，因此适用于 var 的作用域限制同样也适用于 let。
+        if(true){
+            let age = 26;
+            console.log(age)
+        }
+        console.log(age)  //报错
+
+        let age = 30; 
+        console.log(age); // 30 
+        if (true) { 
+            let age = 26; 
+            console.log(age); // 26 
+        }
+    </script>
+</body>
+</html>

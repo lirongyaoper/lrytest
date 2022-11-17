@@ -1,3 +1,0 @@
-for (;;) {  // infinite loop
-  doSomething();
-}

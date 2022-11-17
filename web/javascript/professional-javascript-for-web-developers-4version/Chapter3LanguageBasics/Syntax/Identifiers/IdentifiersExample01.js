@@ -1,3 +1,0 @@
-firstSecond
-myCar
-doSomethingImportant

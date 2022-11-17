@@ -1,9 +1,0 @@
-let drawing = document.getElementById("drawing");
-         
-// make sure <canvas> is completely supported
-if (drawing.getContext) {
-         
-  let context = drawing.getContext("2d");
-  
-  // more code here
-}

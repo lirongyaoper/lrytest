@@ -1,1 +1,0 @@
-let fragment = document.createDocumentFragment();

@@ -1,1 +1,0 @@
-div.removeAttribute("class");
