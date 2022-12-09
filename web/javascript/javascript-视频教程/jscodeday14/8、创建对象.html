@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>8-创建对象_LRY</title>
 </head>
 <body>
 
@@ -20,11 +20,18 @@
 			age : 22,
 			sex : '男',
 			taiji : function () {
-				console.log(this);
+				console.log(this);//this指向 该对象
 			},
+			this_lijei: () => {
+				console.log(this)//this指向  window
+			}
 		}
 
-		
+
+		obj.taiji()
+		obj.this_lijei()
+
+
 		// 属性：
 		// console.log( obj.uname );用于国定属性写法
 		// console.log( obj['age'] );用于动态属性的写法
@@ -33,15 +40,15 @@
 		// obj.taiji();
 		// console.log( obj.taiji );
 
-		for ( let key in obj ) {
-			console.log( obj[key] );
-		}
+		// for ( let key in obj ) {
+		// 	console.log( obj[key] );
+		// }
 
-		let arr = [1, 2, 3];
+		// let arr = [1, 2, 3];
 
-		for (let k in arr) {
-			console.log( arr[k] );
-		}
+		// for (let k in arr) {
+		// 	console.log( arr[k] );
+		// }
 
 	</script>
 	
